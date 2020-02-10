@@ -1,0 +1,35 @@
+body{
+  color:#333333;
+}
+div{
+  height:250px;
+  width:250px;
+}
+p{
+  writing-mode: vertical-rl;
+text-orientation: upright;
+}
+.bg-color{
+  background-color:  #a2be58 ;
+  border: dotted 9px #000000;
+
+}
+.bg-image{
+  background-image: url(../images/beach-sm.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: thick dotted #000000;
+}
+.bg-image1{
+  background-attachment: fixed;
+  background-image: url(../images/beach-sm.jpg);
+  background-position: bottom;
+  background-size: contain;
+}
+.bg-repeat{
+  background-color: #efffc5 ;
+  background-image: url(../images/dot.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

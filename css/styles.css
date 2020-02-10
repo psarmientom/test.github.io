@@ -1,0 +1,25 @@
+body{
+  color:black;
+}
+.main-title{
+  color: red;
+}
+#main-text{
+  color:green;
+}
+p{
+  color:gray;
+}
+div{
+  width:200px;
+  height:200px;
+  /* border:solid 4px #333333; */
+  background: #ff0000;
+  margin:10px;
+  display:inline;
+}
+.demo{
+  /* text-transform: full-width; */
+  text-align: justify;
+
+}
