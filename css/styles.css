@@ -8,18 +8,36 @@ body{
   color:green;
 }
 p{
-  color:gray;
+  color: red;
 }
-div{
-  width:200px;
-  height:200px;
-  /* border:solid 4px #333333; */
-  background: #ff0000;
+.color-demo{
+  background:rgba(51, 93, 158, .5);
+  height:100px;
+  width:750px;
+  height:500px;
+}
+.color-demo1{
+  background: rgba(255,255,255,.5);
   margin:10px;
-  display:inline;
+  padding:20px;
+
 }
-.demo{
-  /* text-transform: full-width; */
-  text-align: justify;
+body{
+  background: #efefef;
+}
+.image-bg{
+  background-image: url("../images/beach-sm.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  width:850px;
+  height: 450px;
+  margin:20px;
+  background-color: #cccccc;
+}
+.content-1{
+  background-color: #000000;
+  color:white;
+  padding:35px;
 
 }
