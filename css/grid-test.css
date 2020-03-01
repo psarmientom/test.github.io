@@ -1,0 +1,75 @@
+.main-wrapper{
+  font-family: helvetica, arial, sans-serif;
+  display: grid;
+  height: 100%;
+  /* Columns */
+  /* I'm adding all these examples, but remember that the one that will
+  be applied is the last one. */
+  grid-template-columns: 300px 300px 300px;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: 200px repeat(3, 1fr); */
+  /* grid-template-columns: repeat(auto-fill,minmax(25%, 1fr)); */
+  /* grid-template-columns: repeat(12, minmax(0, 1fr)); */
+
+  /* Rows */
+  /* grid-template-rows: 300px 300px; */
+  /* grid-template-rows: repeat(2, 1fr); */
+  /* grid-template-rows: 200px repeat(2, 300px); */
+  /* grid-template-rows: 3fr repeat(2, 1fr); */
+  grid-template-rows: repeat(3, minmax(150px, auto));
+
+  /* Gaps */
+  /* This adds gaps between the columns, you can uncomment to see
+  how it looks. */
+  /* row-gap:10px; */
+  /* column-gap: 10px; */
+  gap: 10px;
+
+  /* Grid Template Areas*/
+  /* grid-template-areas:
+  "logo . menu menu"
+  "content-2 content-2 content-3 content-3"
+  "content-1 content-1 content-1 content-1"
+  "footer footer footer footer"; */
+
+  /* Alignment */
+  /* align-items:end; */
+  /* justify-items:strech; */
+  /* align-content:end; */
+  /* justify-content: end; */
+}
+.content-div{
+  height: 50px;
+  width: 50px;
+  background:teal;
+  margin: 10px 5px;
+  padding:10px 5px;
+}
+.logo{
+background: #ccc;
+/* grid-area:logo;*/
+grid-column: 1 / 4;
+margin: 10px 5px;
+margin: 10px 5px;
+}
+.menu{
+background: #efefef;
+/* grid-area: menu; */
+}
+.content-1{
+background: #ccc;
+/* grid-area: content-1; */
+}
+.content-2{
+  background: #efefef;
+/* grid-area: content-2; */
+}
+.content-3{
+background: #ccc;
+/* grid-area: content-3; */
+}
+footer{
+background: #efefef;
+/* grid-area: footer; */
+}
